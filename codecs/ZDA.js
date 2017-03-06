@@ -1,5 +1,5 @@
-exports.TYPE = 'active-satellites';
-exports.ID = 'GSA';
+exports.TYPE = 'time-day-month-year';
+exports.ID = 'ZDA';
 
 exports.decode = function(fields) {
 
