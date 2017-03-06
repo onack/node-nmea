@@ -1,5 +1,5 @@
 exports.TYPE = 'attitude';
-exports.ID = 'SHR';
+exports.ID = 'ASHR';
 
 exports.decode = function(fields) {
 

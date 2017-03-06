@@ -14,7 +14,7 @@ var HDT = require('./codecs/HDT.js');
 var HDM = require('./codecs/HDM.js');
 var ZDA = require('./codecs/ZDA.js');
 var GST = require('./codecs/GST.js');
-var SHR = require('./codecs/SHR.js');
+var ASHR = require('./codecs/ASHR.js');
 var RDID = require('./codecs/RDID.js');
 
 
@@ -48,7 +48,7 @@ exports.traditionalDecoders = {
     HDM: HDM.decode,
     ZDA: ZDA.decode,
     GST: GST.decode,
-    SHR: SHR.decode,
+    ASHR: ASHR.decode,
     RDID: RDID.decode
 };
 
