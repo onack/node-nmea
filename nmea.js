@@ -13,6 +13,7 @@ var APB = require('./codecs/APB.js');
 var HDT = require('./codecs/HDT.js');
 var HDM = require('./codecs/HDM.js');
 var ZDA = require('./codecs/ZDA.js');
+var GST = require('./codecs/GST.js');
 var RDID = require('./codecs/RDID.js');
 
 
@@ -45,6 +46,7 @@ exports.traditionalDecoders = {
     HDT: HDT.decode,
     HDM: HDM.decode,
     ZDA: ZDA.decode,
+    GST: GST.decode,
     RDID: RDID.decode
 };
 
